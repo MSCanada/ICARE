@@ -1,0 +1,45 @@
+
+
+<table class="table table-striped table-hover table-responsive">
+<caption>Available Campaigns</caption>
+<thead> 
+<tr> 
+<th>CampaignID</th>
+<th>CampaignNameEN</th> 
+<th>CampaignNameFR</th>
+<th>EmployerGroupIDList</th>
+<th>StartDate</th>
+<th>EndDate</th>
+<th>StartingAgeLimit</th>
+<th>EndingAgeLimit</th>
+<th>Language</th>
+<th>Provinces</th>
+</tr> 
+</thead> 
+<tbody>
+<?php
+foreach ($result as $obj) {
+?>
+
+
+<tr> 
+<td><?php echo $obj["CampaignID"]; ?></td> 
+<td><?php echo $obj["CampaignNameEN"]; ?></td>
+<td><?php echo $obj["CampaignNameFR"]; ?></td>
+<td><?php echo $obj["EmployerGroupsidList"]; ?></td> 
+<td><?php echo $obj["StartDate"]; ?></td>
+<td><?php echo $obj["EndDate"]; ?></td>
+<td><?php echo $obj["StartingAgeLimit"]; ?></td> 
+<td><?php echo $obj["EndingAgeLimit"]; ?></td>
+<td><?php echo $obj["Language"]; ?></td>
+<td><?php echo $obj["ProvincesidList"]; ?></td> 
+
+</tr> 
+
+
+<?php } ?>
+</tbody>
+</table>
+
+
+

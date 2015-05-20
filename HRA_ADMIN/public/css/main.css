@@ -1,0 +1,51 @@
+/* line 2, ../../scss/main.scss */
+body, span {
+  font: 10px;
+  font-weight: normal;
+}
+
+/* line 6, ../../scss/main.scss */
+.navbar-inverse {
+  background: steelblue;
+}
+
+/* line 10, ../../scss/main.scss */
+.navbar-brand {
+  height: 20px;
+}
+
+/* line 16, ../../scss/main.scss */
+.navbar-inverse .navbar-nav .active a {
+  background: cornflowerblue;
+}
+/* line 20, ../../scss/main.scss */
+.navbar-inverse .navbar-nav .active a:hover {
+  background: royalblue;
+}
+
+/* line 25, ../../scss/main.scss */
+.container .row #user {
+  margin-top: 40px;
+  background-color: #6666FF;
+  border-radius: 18px;
+  padding: 10px;
+  height: 480px;
+  padding: 20px;
+  width: 500px;
+}
+
+/* line 35, ../../scss/main.scss */
+input, select {
+  position: absolute;
+  left: 300px;
+}
+
+/* line 40, ../../scss/main.scss */
+input[type="radio"], #submitbutton {
+  position: relative;
+}
+
+/* line 44, ../../scss/main.scss */
+#submitbutton {
+  left: 10px;
+}

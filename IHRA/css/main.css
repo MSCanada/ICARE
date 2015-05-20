@@ -1,0 +1,106 @@
+
+.col-sm-6 #table-right #pos-right {
+	margin-left: 200px;
+}
+
+.container-fluid .row{
+	margin-top: 100px;
+}
+
+.col-sm-6 #table-right{
+
+	padding:30px;
+border: 20px solid navy;
+
+}
+
+.col-sm-6 a{
+margin-left: 10px;
+}
+#btn{
+margin-left: 200px;
+margin-top: 10px;
+}
+
+.row .col-sm-6 #create-profile{
+	
+	margin-left: 200px;
+	margin-top: 40px;
+
+}
+.container-fluid .row .col-sm-4{
+	border: solid navy;
+	height: 100px;
+	
+}
+#notstarted-campaign,#inprogress-campaign,#completed-campaign{
+	text-align: center;
+	text-decoration: underline;
+
+}
+.create-profile,.create-bmi,.questions-create{
+		
+	border-radius: 10px;
+	padding: 10px;
+	margin-left: 400px;
+	background-color: white;
+	width:500px;
+}
+
+.create-profile-text,.create-bmi-text{
+	text-align: center;
+	display: block;
+	text-decoration: underline;
+}
+.questions-submit{
+	margin-top: 10px;
+}
+
+.section1-border,.section2-border,.section3-border,.section4-border{
+	border: 10px solid green;
+	height: 250px;
+}
+.col-sm-3.section1-border > h4,.col-sm-3.section2-border > h4,.col-sm-3.section3-border > h4,.col-sm-3.section4-border > h4{
+	text-align: center;
+	text-decoration: underline;
+}
+body{
+	background-image:url(http://www.mentalhealthcommission.ca/sites/default/files/bnr_home_eMentalHealthPaper.jpg?1401910031);
+	background-repeat: no-repeat;
+	background-color: #8DC73F;
+}
+
+
+
+.img-responsive.image{
+	
+	margin-top: -40px;
+}
+
+a,p{
+	color: white;
+}
+#bs-example-navbar-collapse-1{
+	background-color: #0081C5;
+	
+
+}
+
+#bs-example-navbar-collapse-1 ul li{
+	color: red;
+	text-transform: uppercase;
+	font-weight: bold;
+
+}
+
+.col-sm-6.faq{
+	margin-left: 700px;
+	padding: 10px;
+	background-color: white;
+	border-radius: 2em;
+
+}
+.col-sm-6.faq p{
+	margin-top: 10px;
+	color:blue;
+}
